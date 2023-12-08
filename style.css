@@ -1,0 +1,112 @@
+body {
+    background-color: #f3f3f3;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    border: 20px solid darkblue;
+    border-radius: 20px;
+    background-color: lightblue;
+}
+
+#froyo {
+    background-color: lightblue;
+    border-radius: 20px;
+    border: 20px solid darkblue;
+    box-shadow: rgba(27, 8, 232, 0.35) 15px 15px 15px;
+
+}
+
+.iceCream {
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 5px;
+    font-size: 40px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 5px;
+    font-size: 45px;
+}
+
+p {
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 5px;
+    font-size: 24px;
+
+}
+
+@media ( 450px <= width <= 750px)  {
+    .container {
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        border: 10px solid darkblue;
+        border-radius: 20px;
+    }
+    .iceCream {
+        text-align: center;
+        color: darkblue;
+        margin-bottom: 5px;
+        font-size: 22px;
+        padding: 5px;
+    }
+}
+
+@media ( 370px <= width <= 450px)  {
+    .container {
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        border: 5px solid darkblue;
+        border-radius: 20px;
+    }
+    .iceCream {
+        text-align: center;
+        color: darkblue;
+        margin-bottom: 5px;
+        font-size: 18px;
+        padding: 2px;
+    }
+}
+
+@media ( 300px <= width <= 370px)  {
+    .container {
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        border: 5px solid darkblue;
+        border-radius: 20px;
+    }
+    .iceCream {
+        text-align: center;
+        color: darkblue;
+        margin-bottom: 5px;
+        font-size: 14px;
+        padding: 2px;
+    }
+}
+
+@media ( 0px <= width <= 300px)  {
+    .container {
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        border: 5px solid darkblue;
+        border-radius: 20px;
+    }
+    .iceCream {
+        text-align: center;
+        color: darkblue;
+        margin-bottom: 5px;
+        font-size: 10px;
+        padding: 2px;
+    }
+}
